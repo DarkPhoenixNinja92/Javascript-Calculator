@@ -1,0 +1,20 @@
+button {
+    padding: 1.5em 4em;
+    font-size: 20px;
+}
+
+.btn-other {
+    padding: 1.5em 4em;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-gap: 0.6em;
+    width: 50%;
+    background-color: slategray;
+    padding: 2em 3em;
+    position: relative;
+    left: 30em;
+    top: 15em;
+}
