@@ -1,6 +1,7 @@
 let userClickedBtn;
+let curentUserVal = 0;
 
-function addTogether() {
-    userClickedBtn = document.querySelector("button").textContent;
-    alert(userClickedBtn);
+let addTogether = () => {
+    userClickedBtn = document.querySelector(".btn-num").textContent;
+    console.log(userClickedBtn);
 }
