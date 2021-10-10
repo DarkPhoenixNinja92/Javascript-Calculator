@@ -1,7 +1,8 @@
+const btnNum = document.querySelector(".btn-num");
+const btnOther = document.querySelector(".btn-other");
 let userClickedBtn;
 let curentUserVal = 0;
 
-let addTogether = () => {
-    userClickedBtn = document.querySelector(".btn-num").textContent;
-    console.log(userClickedBtn);
-}
+btnNum.addEventListener('click', (e) => {
+    alert(e.target.textContent);
+});
