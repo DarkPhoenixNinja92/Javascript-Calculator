@@ -4,5 +4,6 @@ let userClickedBtn;
 let curentUserVal = 0;
 
 btnNum.addEventListener('click', (e) => {
-    alert(e.target.textContent);
+    userClickedBtn = parseInt(btnNum.textContent);
+    alert(userClickedBtn);
 });
